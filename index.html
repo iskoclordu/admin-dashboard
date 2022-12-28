@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP-Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="images/dashboard.png" alt="Dashboard illustration">
+        <p id="logo">dashboard</p>
+    </div>
+
+    <div class="header">
+        <div class="search">
+            <input type="search">
+            <img src="icons/search.svg" alt="Search icon">
+        </div>
+        <div class="header-buttons">
+            <div>
+                <button class="menu"><img src="icons/bell.svg" alt="Bell icon"></button>
+            </div>
+            <div>
+                <button class="menu"><img src="images/pp.jpg" alt="User profile picture"></button>
+            </div>
+            <div>
+                <p id="full-name">Abdulkadir Livaoglu</p>
+                <p id="user-name">@iskoclordu</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-menu">
+        <div class="userinfo">
+            <div>
+                <button class="menu"><img src="images/pp.jpg" alt="User profile picture"></button>
+            </div>
+            <div>
+                <p id="full-name">Abdulkadir Livaoglu</p>
+                <p id="user-name">@iskoclordu</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="nav-menu-buttons">New</button>
+            <button class="nav-menu-buttons">Upload</button>
+            <button class="nav-menu-buttons">Edit</button>
+        </div>
+    </div>
+
+
+    <div class="side-bar">
+        <ul class="sidebar-menu" id="dashboardmenu">
+            <li class="selection">
+                <button class="menu"><img src="icons/home.svg" alt="Home icon"><span>Home</span></button>
+            </li>
+            <li class="selection">
+                <button class="menu"><img src="icons/user.svg" alt="User icon"><span>Profile</span></button>
+            </li>
+            <li class="selection">
+                <button class="menu"><img src="icons/message-square.svg" alt="Message icon"><span>Messages</span></button>
+            </li>
+            <li class="selection">
+                <button class="menu"><img src="icons/clock.svg" alt="Clock icon"><span>History</span></button>
+            </li>
+            <li class="selection">
+                <button class="menu"><img src="icons/bell.svg" alt="Bell icon"><span>Notifications</span></button>
+            </li>
+            <li class="selection">
+                <button class="menu"><img src="icons/briefcase.svg" alt="Briefcase icon"><span>Tasks</span></button>
+            </li>
+            <li class="selection">
+                <button class="menu"><img src="icons/activity.svg" alt="Activity icon"><span>Activities</span></button>
+            </li>
+        </ul>
+
+        <ul class="sidebar-menu" id="mainmenu">
+            <li class="selection">
+                <button class="menu"><img src="icons/settings.svg" alt="Settings icon"><span>Settings</span></button>
+            </li>
+            <li class="selection">
+                <button class="menu"><img src="icons/help-circle.svg" alt="Help icon"><span>Support</span></button>
+            </li>
+            <li class="selection">
+                <button class="menu"><img src="icons/log-out.svg" alt="Log out icon"><span>Log out</span></button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content-container">
+        <div class="projects-container">
+            <div class="container-heading">
+                <h3>Your Projects</h3>
+            </div>
+            <div class="projects">
+                <div class="project" id="p1">
+                    <div class="project-name">
+                        <h4>Calculator</h4>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="images/calculator.jpg" alt="Calculator image">
+                        </div>
+                        <div class="project-text">
+                            <p>Basic Calculator for Basic Math Operations
+                                <br>
+                                Keyboard Supported.
+                                <br>
+                                Brand and model name is just for fun! Prepared as an assignment for the Odin Project Curriculum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="mailto:abdulkadirlivaoglu@gmail.com">
+                            <button class="project-buttons"><img src="icons/send.svg" alt="Send icon"><span>Send Feedback</span></button>
+                        </a>
+                        <a href="https://iskoclordu.github.io/calculator/">
+                            <button class="project-buttons"><img src="icons/eye.svg" alt="Eye icon"><span>Visit Live</span></button>
+                        </a>
+                        <a href="https://www.github.com/iskoclordu/calculator/">
+                            <button class="project-buttons"><img src="icons/github.svg" alt="Github icon"><span>Visit Repository</span></button>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="project" id="p2">
+                    <div class="project-name">
+                        <h4>Sign Up Form</h4>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="images/sign-up-form.jpg" alt="Webpage screenshot">
+                        </div>
+                        <div class="project-text">
+                            <p>Created for as a part of The Odin Project Curriculum
+                                <br>
+                                Css styles of main input types are tested. Form doesn't send any data to any location but please don't use real informations.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="mailto:abdulkadirlivaoglu@gmail.com">
+                            <button class="project-buttons"><img src="icons/send.svg" alt="Send icon"><span>Send Feedback</span></button>
+                        </a>
+                        <a href="https://iskoclordu.github.io/sign-up-form/">
+                            <button class="project-buttons"><img src="icons/eye.svg" alt="Eye icon"><span>Visit Live</span></button>
+                        </a>
+                        <a href="https://www.github.com/iskoclordu/sign-up-form/">
+                            <button class="project-buttons"><img src="icons/github.svg" alt="Github icon"><span>Visit Repository</span></button>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="project" id="p3">
+                    <div class="project-name">
+                        <h4>Etch a Sketch</h4>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="images/etch-a-sketch.jpg" alt="Webpage screenshot">
+                        </div>
+                        <div class="project-text">
+                            <p>Simple sketch page includes a few colors prepared for assignment as a part of the Odin Project Curriculum.
+                                <br>
+                                Sketch space grid is adjustable from 1x1 to 100x100.
+                                <br>
+                                There are eight different color options to draw. One of the colors are rainbow which picks random color from 
+                                palette for each grid. Also there is an eraser to erase parts in case of need.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="mailto:abdulkadirlivaoglu@gmail.com">
+                            <button class="project-buttons"><img src="icons/send.svg" alt="Send icon"><span>Send Feedback</span></button>
+                        </a>
+                        <a href="https://iskoclordu.github.io/etch-a-sketch/">
+                            <button class="project-buttons"><img src="icons/eye.svg" alt="Eye icon"><span>Visit Live</span></button>
+                        </a>
+                        <a href="https://www.github.com/iskoclordu/etch-a-sketch/">
+                            <button class="project-buttons"><img src="icons/github.svg" alt="Github icon"><span>Visit Repository</span></button>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="project" id="p4">
+                    <div class="project-name">
+                        <h4>Landing Page</h4>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="images/landing-page.jpg" alt="Webpage screenshot">
+                        </div>
+                        <div class="project-text">
+                            <p>Landing-page is a project which created at the end of css and html basic lessons.
+                                <br>
+                                This page will not contain any meaningful content as text or image.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="mailto:abdulkadirlivaoglu@gmail.com">
+                            <button class="project-buttons"><img src="icons/send.svg" alt="Send icon"><span>Send Feedback</span></button>
+                        </a>
+                        <a href="https://iskoclordu.github.io/landing-page">
+                            <button class="project-buttons"><img src="icons/eye.svg" alt="Eye icon"><span>Visit Live</span></button>
+                        </a>
+                        <a href="https://www.github.com/iskoclordu/landing-page/">
+                            <button class="project-buttons"><img src="icons/github.svg" alt="Github icon"><span>Visit Repository</span></button>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="project" id="p5">
+                    <div class="project-name">
+                        <h4>Rock Paper Scissors</h4>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="images/rock-paper-scissors.jpg" alt="Webpage screenshot">
+                        </div>
+                        <div class="project-text">
+                            <p>This game is a basic Rock Paper Scissors game Player vs Computer Ends when total score of the two parts reaches to 5
+                                <br>
+                                Prepared as an assignment in the javaScript part of The Odin Project Foundations Course.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="mailto:abdulkadirlivaoglu@gmail.com">
+                            <button class="project-buttons"><img src="icons/send.svg" alt="Send icon"><span>Send Feedback</span></button>
+                        </a>
+                        <a href="https://iskoclordu.github.io/rock-paper-scissors/">
+                            <button class="project-buttons"><img src="icons/eye.svg" alt="Eye icon"><span>Visit Live</span></button>
+                        </a>
+                        <a href="https://www.github.com/iskoclordu/rock-paper-scissors">
+                            <button class="project-buttons"><img src="icons/github.svg" alt="Github icon"><span>Visit Repository</span></button>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="project" id="p6">
+                    <div class="project-name">
+                        <h4>Odin Recipes/h4>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="images/odin-recipes.jpg" alt="Webpage screenshot">
+                        </div>
+                        <div class="project-text">
+                            <p>Website for Recipes This website consists the recipes for a typical Turkish dinner menu.
+                                There are five recipes in it with a photo of each to give a serving idea. As the 
+                                homepage includes links to other webpages of website. Also there is a contact link in 
+                                each page to send feedbacks to author. For sending your plates, prepared by these 
+                                recipes and also your comments.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="mailto:abdulkadirlivaoglu@gmail.com">
+                            <button class="project-buttons"><img src="icons/send.svg" alt="Send icon"><span>Send Feedback</span></button>
+                        </a>
+                        <a href="https://iskoclordu.github.io/odin-recipes/">
+                            <button class="project-buttons"><img src="icons/eye.svg" alt="Eye icon"><span>Visit Live</span></button>
+                        </a>
+                        <a href="https://www.github.com/iskoclordu/odin-recipes">
+                            <button class="project-buttons"><img src="icons/github.svg" alt="Github icon"><span>Visit Repository</span></button>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+              
+            </div>
+
+        </div>
+
+
+        <div class="latest-comments-container">
+            <div class="container-heading">
+                <h3>Latest Comments</h3>
+            </div>
+            <div class="comments">
+                <div class="comment" id="c1">
+                    <p class="user-name">@odin</p>
+                    <p class="commented-project">Commented on <em><a href="https://iskoclordu.github.io/calculator/">Calculator Project</a></em></p>
+                    <p class="comement-time">on 23:20 Today</p>
+                </div>
+                <div class="comment" id="c2">
+                    <p class="user-name">@thor</p>
+                    <p class="commented-project">Commented on <em><a href="https://iskoclordu.github.io/etch-a-sketch/">Etch-a-Sketch Project</a></em></p>
+                    <p class="comement-time">on 12:10 Today</p>
+                </div>
+                <div class="comment" id="c3">
+                    <p class="user-name">@loki</p>
+                    <p class="commented-project">Commented on <em><a href="https://iskoclordu.github.io/rock-paper-scissors">Rock-Paper-Scissors Project</a></em></p>
+                    <p class="comement-time">on 08:15 Today</p>
+                </div>
+            </div>
+        </div>
+        <div class="friends-container">
+            <div class="container-heading">
+                <h3>Friends</h3>
+            </div>
+            <div class="friends">
+                <div class="friend">
+                    <img src="images/bohemian-5323333_1920.png" alt="Bohemian gypsy lady illustration">
+                    <p class="user-name"><a href="https://pixabay.com/users/prettysleepy-2973588/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5323329">@Amy</a> </p>
+                    <p class="friend-name">from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5323329">Pixabay</a></p>
+                </div>
+
+                <div class="friend">
+                    <img src="images/bohemian-5326375_1920.png" alt="Bohemian gypsy lady illustration">
+                    <p class="user-name"><a href="https://pixabay.com/users/prettysleepy-2973588/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5323329">@Amy</a> </p>
+                    <p class="friend-name">from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5323329">Pixabay</a></p>
+                </div>
+
+                <div class="friend">
+                    <img src="images/bohemian-5325610_1920.png" alt="Bohemian gypsy lady illustration">
+                    <p class="user-name"><a href="https://pixabay.com/users/prettysleepy-2973588/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5323329">@Amy</a> </p>
+                    <p class="friend-name">from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5323329">Pixabay</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+</body>
+</html>
