@@ -248,7 +248,7 @@ li img{
     align-items: center;
     padding-right: 2rem;
     position: relative;
-    box-shadow: 0 2px 3px 0 var(--font-color-3);
+    box-shadow: 0 3px 3px 0 var(--font-color-3);
 }
 
 .nav-menu .buttons{
