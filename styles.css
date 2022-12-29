@@ -293,7 +293,7 @@ li img{
 .projects{
     height: minmax(40vh,80vh);
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-template-columns: repeat(3,minmax(18rem,1fr));
     gap: 0.8rem;
     overflow: auto;
 }
